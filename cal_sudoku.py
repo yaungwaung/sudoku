@@ -5,7 +5,7 @@ test on bash for win10, ubuntu 16.04
 '''
 import sys
 import datetime
-from sudoku.sudoku import *
+from sudoku import *
 
 def cal(source):
     n = len([i for i in source if i in '1234356789'])
